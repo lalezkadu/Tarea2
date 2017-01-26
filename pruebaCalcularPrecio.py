@@ -18,8 +18,8 @@ class caseTesterCalcularPrecio(unittest.TestCase):
 		pass
 
 	def testBisiesto(self):
-		inicioDeServicio = datetime.datetime(2016,2,23,3,0,0)
-		finDeServicio = datetime.datetime(2016,2,29,3,0,0)
+		inicioDeServicio = datetime.datetime(2012,2,23,3,0,0)
+		finDeServicio = datetime.datetime(2012,2,29,3,0,0)
 		tiempoDeServicio = [inicioDeServicio, finDeServicio]
 		tarifaActual = Tarifa(10,20)
 		self.assertEquals(calcularPrecio(tarifaActual, tiempoDeServicio), 1920)
