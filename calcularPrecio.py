@@ -51,8 +51,8 @@ def calcularPrecio(tarifa, tiempoDeServicio):
 	# Redondeamos las horas de servicio
 	if (segundos_servicio % 3600 > 0):
 		horas_servicio += 1
-	#if (dia_inicio == 4 and dia_fin == 0):
-	#	horas_servicio += 1
+	if (dia_inicio == 4 and dia_fin == 0):
+		horas_servicio += 1
 
 	if (dias_servicio == 0 and segundos_servicio < 900):	# Verificamos que el tiempo de servicio se encuentra en el dominio
 		print("El tiempo de servicio fue menor a 15 minutos.")
