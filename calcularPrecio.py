@@ -25,7 +25,7 @@ class Tarifa():
 			self.diasemana = -1
 			self.finsemana = -1
 
-# Determina el 
+# Determina el precio de un servicio
 # Parametros:
 # tarifa: instancia de la clase Tarifa que contiene las tarifas por hora de 
 # servicio
